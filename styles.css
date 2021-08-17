@@ -13,9 +13,12 @@ body {
 .grid {
   /* add correct code to place the grid elements 
   one beside the other equally.   */
-
-  flex-wrap: justify-content;
+  
   font-family: sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: stretch;
   
 }
 
